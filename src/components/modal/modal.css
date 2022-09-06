@@ -1,0 +1,94 @@
+
+.page-disable{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(138, 138, 138, 0.6);
+
+    top: 0;
+    left: 0;
+
+    z-index: 9;
+}
+
+.modal{
+    position: absolute;
+    top: 20%;
+    right: 35%;
+    z-index: 10;
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.modal-closing{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.modal-body textarea{
+    width: 90%;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+}
+
+.disable{
+    display: none;
+}
+
+.btn {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.closing-button{
+    width: 2rem;
+    background-color: #cc0000 ;
+    border: #cc0000;
+    color: #ffffff;
+}
+
+.closing-button:hover{
+    background-color: #d63232;
+
+}
+
+.post-button{
+    background-color: #195e1c ;
+    border: #195e1c;
+    color: #ffffff;
+}
+
+.post-button:hover{
+    background-color: #2F6E32;
+
+}
+
+.cancel-button{
+    background-color: #6e6e6e ;
+    border: #6e6e6e;
+    color: #ffffff;
+}
+
+.cancel-button:hover{
+    background-color: #adadad;
+
+}
+
+
